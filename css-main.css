@@ -1,0 +1,15 @@
+:root {
+    bg-clr-main:#bdb7b2;
+    bg-clr-logo2:#72503f;
+    bg-clr-logo3:#ebdc22;
+    bg-clr-logo4:#bb8c20;
+    bg-clr-logo5:#f32e2e;
+    text-color-main:black;
+    text-color-alt1:white;
+    text-color-alt2: aqua;
+
+
+}
+body{
+    margin:0;
+}
