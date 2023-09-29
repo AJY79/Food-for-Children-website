@@ -1,15 +1,51 @@
 :root {
-    bg-clr-main:#bdb7b2;
-    bg-clr-logo2:#72503f;
-    bg-clr-logo3:#ebdc22;
-    bg-clr-logo4:#bb8c20;
-    bg-clr-logo5:#f32e2e;
-    text-color-main:black;
-    text-color-alt1:white;
-    text-color-alt2: aqua;
+    --bg-clr-main:#bdb7b2;
+    --bg-clr-secondary:#A2A2A2;
+    --button-clr:#F5F406;
+    --text-color-main:#000000;
+    
 
 
 }
 body{
-    margin:0;
+    margin:0;font-family: 'Segoe Print', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    
+}
+
+header {
+    background-color: var(--bg-clr-main);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    
+    }
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+img     {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    margin:20px;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
 }
