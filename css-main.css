@@ -1,9 +1,13 @@
 :root {
+    
     --bg-clr-main:#bdb7b2;
     --bg-clr-secondary:#A2A2A2;
     --button-clr:#F5F406;
     --text-color-main:#000000;
-
+*{
+    box-sizing: border-box;
+   
+}
 
 
 }
@@ -11,6 +15,7 @@ body{
     margin:0;
     font-family: 'Segoe Print', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
+    background-color: var(--bg-clr-main);
     
 }
 
@@ -60,6 +65,7 @@ button {
 }
 
 
+
 .info {
     padding: 5px;
     margin: 15px;
@@ -77,6 +83,8 @@ ul {
     margin: 15px;
 }
 
+
+
 li {
     display: inline-flex;
     flex-wrap: wrap;
@@ -89,3 +97,106 @@ li, a{
     padding: 5px;
     color: #000000;
 }
+
+
+
+h1 {
+    color: var(--button-clr);
+    font-size: 4rem;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+
+
+#section1 {
+    padding: 2rem;
+    background-color: var(--bg-clr-secondary);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+#section2 {
+    background-color: var(--bg-clr-main);
+}
+
+#section3{
+   
+    background-color: #ff9000;
+    text-align: center;
+}
+
+.totals {
+    display: grid;
+    gap: 3rem; 
+    width: 90%;
+    padding-block: 2rem;
+    margin-inline:auto;
+    
+}
+
+@media (min-width:60em){
+.totals {
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+}
+
+#total1  {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: var(--button-clr);
+    
+}
+
+#total2  {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: var(--button-clr);
+    }
+
+#total3 {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: var(--button-clr);
+   }
+section3 {
+ background-color: var(--bg-clr-secondary);
+}
+
+#section4{
+  
+    background-color: var(--bg-clr-main);
+}
+
+#section5 {
+    background-color: darkolivegreen;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--button-clr);
+    position: absolute;
+    width: 100%;
+    
+}
+div {
+    
+    padding: 10px;
+    text-align: center;
+}
+
