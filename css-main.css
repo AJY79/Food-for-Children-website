@@ -111,6 +111,11 @@ h2 {
     padding: 1rem;
 }
 
+h3 {
+    font-size: 2rem;
+    color: blue;
+}
+
 
 
 #section1 {
@@ -132,13 +137,40 @@ h2 {
     text-align: center;
 }
 
+#section4 {
+    text-align: center;
+}
+
+
+#section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-clr-main);
+}
+
+#section5 {
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+
 .totals {
     display: grid;
     gap: 3rem; 
     width: 90%;
     padding-block: 2rem;
     margin-inline:auto;
-    
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.help {
+    display: grid;
+    gap: 3rem; 
+    width: 90%;
+    padding-block: 2rem;
+    margin-inline:auto;
 }
 
 @media (min-width:60em){
@@ -147,9 +179,14 @@ h2 {
    
 }
 
+.help {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 }
 
 #total1  {
+    display: block;
     margin-inline:auto;
     border: solid 1px black;
     width: 200px;
@@ -157,6 +194,7 @@ h2 {
     background-color: var(--button-clr);
     
 }
+
 
 #total2  {
     margin-inline:auto;
@@ -173,18 +211,48 @@ h2 {
     height: 200px;
     background-color: var(--button-clr);
    }
-section3 {
- background-color: var(--bg-clr-secondary);
+
+.fbpage {
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+
 }
 
-#section4{
-  
-    background-color: var(--bg-clr-main);
+
+#help1  {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 220, 220);
+    
 }
 
-#section5 {
-    background-color: darkolivegreen;
-}
+#help2  {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 220, 220);
+    }
+
+#help3 {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 220, 220);
+   }
+
+#help4 {
+    margin-inline:auto;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 220, 220);
+   }
 
 .information {
     display: grid;
@@ -192,6 +260,8 @@ section3 {
     background-color: var(--button-clr);
     position: absolute;
     width: 100%;
+    font-size: 0.75rem;
+    padding: 1.5rem;
     
 }
 div {
@@ -200,3 +270,8 @@ div {
     text-align: center;
 }
 
+.foot2 {
+    border-left:  solid 1px #000000;
+    border-right: solid 1px #000000;
+    
+}
