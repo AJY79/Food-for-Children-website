@@ -49,6 +49,30 @@ img     {
     max-width: 35px;
 }
 
+.calender {
+    margin-top: 30px;
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.donateImg {
+    margin-top: 30px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.volunteerImg {
+    margin-top: 30px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.supportImg {
+    margin-top: 30px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
 button {
     display: flex;
     flex-wrap: wrap;
@@ -182,6 +206,12 @@ h3 {
 
 }
 
+.p1 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
 #total1  {
     display: block;
     margin-inline:auto;
@@ -251,7 +281,7 @@ h3 {
     background-color: rgb(226, 220, 220);
    }
 
-.information {
+.information  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--button-clr);
@@ -264,7 +294,12 @@ h3 {
 
 
 .foot2 {
+    
     border-left:  solid 1px #000000;
     border-right: solid 1px #000000;
     
+}
+
+.foot2 a {
+    font-size: 0.75rem;
 }
