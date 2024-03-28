@@ -165,18 +165,12 @@ h3 {
     
 }
 
-.currentCampaign {
-
-    width: 100%;
-    min-height: 400px;
-    
-}
-
 .newCamp {
-   
-    width: 100%;
-    height: fit-content;
+    width: 90%;
+    height: auto;
 }
+
+
 
 
 #section3{
@@ -332,6 +326,12 @@ h3 {
 .foot2 {
     border-left:  solid 1px #ff9000;
     border-right: solid 1px #ff9000;
+}
+.currentCampaign {
+    width: 100%;
+}
+.newCamp {
+    width: 100%;
 }
 
 }
