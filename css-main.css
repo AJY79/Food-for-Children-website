@@ -159,13 +159,25 @@ h3 {
 
 
 #campaign {
-    background-color: aliceblue;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+    
+    background-color: var(--bg-clr-secondary);
     
 }
+
+.currentCampaign {
+
+    width: 100%;
+    min-height: 400px;
+    
+}
+
+.newCamp {
+   
+    width: 100%;
+    height: fit-content;
+}
+
 
 #section3{
     background-image: url(images/img_6517.webp);
