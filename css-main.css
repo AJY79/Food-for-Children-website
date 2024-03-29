@@ -323,14 +323,7 @@ h3 {
     border-right: solid 1px #ff9000;
 }
 
-#campaign {
-    display: flex;
-    justify-content: center;
-    background-image: url(images/e0b28b94-0aad-47d6-b268-e2ba492a8008.jpg);
-    
-    background-size: cover;
-    min-height: 420px;
-}
+
 
 }
 
