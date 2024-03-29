@@ -159,16 +159,11 @@ h3 {
 
 
 #campaign {
-    display: flex;
     
     background-color: var(--bg-clr-secondary);
-    
 }
 
-.newCamp {
-    width: 90%;
-    height: auto;
-}
+
 
 
 
@@ -327,11 +322,14 @@ h3 {
     border-left:  solid 1px #ff9000;
     border-right: solid 1px #ff9000;
 }
-.currentCampaign {
-    width: 100%;
-}
-.newCamp {
-    width: 100%;
+
+#campaign {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/e0b28b94-0aad-47d6-b268-e2ba492a8008.jpg);
+    
+    background-size: cover;
+    min-height: 420px;
 }
 
 }
