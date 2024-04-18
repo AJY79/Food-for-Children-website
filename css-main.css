@@ -159,9 +159,25 @@ h3 {
 
 
 
+.campaign {
+    background-color: var(--bg-clr-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+}
 
-
+.current img {
+    width: 95%;
+    height: auto;
+}
 
 
 
