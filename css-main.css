@@ -176,7 +176,7 @@ h3 {
 
 .current img {
     width: 95%;
-    height: auto;
+    height: 250px;
 }
 
 
@@ -236,6 +236,11 @@ h3 {
 .information  {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.current img {
+    width: 95%;
+    height: auto;
 }
 
 .help {
