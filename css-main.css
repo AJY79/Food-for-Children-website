@@ -176,7 +176,7 @@ h3 {
 
 .current img {
     width: 95%;
-    height: 250px;
+    height: Auto;
 }
 
 
@@ -240,7 +240,7 @@ h3 {
 
 .current img {
     width: 95%;
-    height: auto;
+    height: 750px;
 }
 
 .help {
