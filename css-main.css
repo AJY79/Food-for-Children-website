@@ -147,6 +147,18 @@ h3 {
     color: blue;
 }
 
+h4 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding: 0.5rem;
+}
+
+.db_details {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
 
 
 #section1 {
@@ -155,6 +167,34 @@ h3 {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+#donation {
+    padding: 4rem;
+    background-color: var(--bg-clr-secondary);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.bankcard {
+    padding: 2rem;
+}
+
+.bankDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-inline:auto;
+    border: solid 2px black;
+    width: 90%;
+    height: 25rem;
+    background-color: var(--button-clr);
+    line-height: 1.1rem;
+    padding-top: 0;
+    
+
 }
 
 
@@ -250,6 +290,20 @@ h3 {
 .foot2 {
     border-left:  solid 1px #ff9000;
     border-right: solid 1px #ff9000;
+}
+
+h4 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.db_details {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.bankDetails {
+    width: 60%;
 }
 
 }
