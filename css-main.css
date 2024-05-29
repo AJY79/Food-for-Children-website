@@ -147,9 +147,10 @@ h3 {
     color: blue;
 }
 
-h4 {
-    font-size: 1.5rem;
-    margin-top: 0;
+
+
+h5 {
+    font-size: 1.2rem;
     padding: 0.5rem;
 }
 
@@ -184,17 +185,24 @@ h4 {
 .bankDetails {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-inline:auto;
     border: solid 2px black;
     width: 90%;
-    height: 25rem;
+    height: auto;
     background-color: var(--button-clr);
     line-height: 1.1rem;
-    padding-top: 0;
+    padding: 2rem;
     
 
+}
+
+.donation_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #A2A2A2;
 }
 
 
@@ -297,6 +305,12 @@ h4 {
     margin-top: 0;
 }
 
+h4 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding: 0.5rem;
+}
+
 .db_details {
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -305,6 +319,8 @@ h4 {
 .bankDetails {
     width: 60%;
 }
+
+
 
 }
 
