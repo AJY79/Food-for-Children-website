@@ -5,6 +5,7 @@
     --button-clr:#F5F406;
     --text-color-main:#000000;
     --foot-text-colour: #ff9000;
+    --totals-clr:#e7e127d6;
 
 *{
     box-sizing: border-box;
@@ -345,7 +346,7 @@ h4 {
     border: solid 1px black;
     width: 320px;
     height: 300px;
-    background-color: var(--button-clr);
+    background-color: var(--totals-clr);
     line-height: 1.1rem;
     padding-top: 0;
     
@@ -359,7 +360,7 @@ h4 {
     border: solid 1px black;
     width: 320px;
     height: 300px;
-    background-color: var(--button-clr);
+    background-color: var(--totals-clr);
     line-height: 1.1rem;
     }
 
@@ -368,7 +369,7 @@ h4 {
     border: solid 1px black;
     width: 320px;
     height: 300px;
-    background-color: var(--button-clr);
+    background-color: var(--totals-clr);
     line-height: 1.1rem;
    }
 
@@ -428,6 +429,9 @@ h4 {
 
 
 .foot2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-inline: auto;
     padding-left: 100px;
     padding-right: 100px;
