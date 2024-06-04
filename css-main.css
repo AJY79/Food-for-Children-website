@@ -2,6 +2,7 @@
     
     --bg-clr-main:#bdb7b2;
     --bg-clr-secondary:#A2A2A2;
+    --bg-clr-second:#f8f1f1e4;
     --button-clr:#F5F406;
     --text-color-main:#000000;
     --foot-text-colour: #ff9000;
@@ -220,7 +221,7 @@ h5 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-clr-main);
+    background-color: var(--bg-clr-second);
     width: 90%;
 }
 
