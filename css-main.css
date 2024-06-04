@@ -230,6 +230,8 @@ h5 {
 }
 
 .mealText {
+    text-align: center;
+    
     background-color: aliceblue;
     padding: 0.5rem;
 }
@@ -329,11 +331,9 @@ h4 {
 
 .current img {
 
-    width: 25rem;
+    width: 50rem;
     height: Auto;
 }
-
-
 
 }
 
