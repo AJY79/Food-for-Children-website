@@ -217,15 +217,21 @@ h5 {
 
 .current {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--bg-clr-main);
     width: 90%;
 }
 
 .current img {
-    width: 95%;
+    width: 90%;
     height: Auto;
+}
+
+.mealText {
+    background-color: aliceblue;
+    padding: 0.5rem;
 }
 
 
@@ -276,6 +282,7 @@ h5 {
 
 
 
+
 @media (min-width:60em){
 .totals {
     grid-template-columns: repeat(3, 1fr);
@@ -287,10 +294,7 @@ h5 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.current img {
-    width: 95%;
-    height: 750px;
-}
+
 
 .help {
     grid-template-columns: repeat(4, 1fr);
@@ -319,6 +323,14 @@ h4 {
 
 .bankDetails {
     width: 60%;
+}
+
+
+
+.current img {
+
+    width: 25rem;
+    height: Auto;
 }
 
 
