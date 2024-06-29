@@ -104,6 +104,9 @@ button {
     letter-spacing: 0.10rem;
 }
 
+.contactInfo a {
+    font-size: 16px;
+}
 
 ul {
     
