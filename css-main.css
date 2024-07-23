@@ -148,8 +148,17 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: blue;
+}
+
+h4 {
+    font-size: 3rem;
+    color: #F5F406;
+}
+
+span {
+    font-size: 1.5rem;
 }
 
 #soa {
@@ -281,6 +290,103 @@ h5 {
     text-align: center;
 }
 
+.upcoming_events {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+	
+}
+
+/* Styling the left floating section */
+.upcoming_events .leftBox {
+    width: 90%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-inline: auto;
+    box-sizing: border-box; 
+    text-align: center;  
+}
+
+/* Styling the background of 
+			left floating section */
+            .upcoming_events .leftBox .content {
+                color: #fff;
+                background: rgba(0, 0, 0, 0.5);
+                padding: 40px;
+                transition: .5s;
+            }
+
+
+    
+            /* Styling the paragraph of 
+                left floating section */
+                .upcoming_events .leftBox .content p {
+                margin: 10px 0 0;
+                padding: 0;
+            }
+
+    .upcoming_events .rightBox {
+    width: 90%;
+    height: 100%;
+    padding-bottom: 10px;
+    margin-inline: auto;
+    box-sizing: border-box;
+}
+
+/* Styling the background of 
+			right floating section */
+            .upcoming_events .rightBox .content {
+                color: #fff;
+                background: rgba(0, 0, 0, 0.5);
+                padding: 40px;
+                transition: .5s;
+            }
+
+/* Styling the hover effect 
+			of right floating section */
+            .upcoming_events .rightBox .content:hover {
+                background: #e91e63;
+            }
+    
+            /* Styling the header of right 
+                floating section */
+                .upcoming_events .rightBox .content h1 {
+                margin: 0;
+                padding: 0;
+                font-size: 50px;
+                text-transform: uppercase;
+            }
+    
+            /* Styling the paragraph of 
+                right floating section */
+                .upcoming_events .rightBox .content p {
+                margin: 10px 0 0;
+                padding: 0;
+            }
+
+.upcoming_events .events {
+    display: flex;
+    gap: 20px;
+}
+
+.upcoming_events .events .time {
+    background-color: #262626;
+    padding: 20px;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.upcoming_events .events .time p {
+            text-align: center;
+            font-weight: 700;
+}
+
+
+
 .totals {
     display: grid;
     gap: 3rem; 
@@ -356,6 +462,22 @@ h4 {
     width: 50rem;
     height: Auto;
 }
+
+.upcoming_events {
+    flex-direction: row;
+  
+	
+}
+
+.upcoming_events .events .time p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+
 
 }
 
