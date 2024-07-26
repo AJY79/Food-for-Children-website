@@ -148,6 +148,7 @@ h2 {
 }
 
 h3 {
+    
     font-size: 1.5rem;
     color: blue;
 }
@@ -236,9 +237,11 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .current {
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -374,6 +377,7 @@ h5 {
 .upcoming_events .events .time {
     background-color: #262626;
     padding: 20px;
+    align-items: center;
     justify-content: center;
     width: 30%;
     height: 100%;
@@ -381,6 +385,7 @@ h5 {
 }
 
 .upcoming_events .events .time p {
+           
             text-align: center;
             font-weight: 700;
 }
@@ -435,10 +440,7 @@ h5 {
     border-right: solid 1px #ff9000;
 }
 
-h4 {
-    font-size: 2.5rem;
-    margin-top: 0;
-}
+
 
 h4 {
     font-size: 1.5rem;
