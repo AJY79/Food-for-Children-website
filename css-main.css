@@ -195,6 +195,11 @@ h5 {
     font-weight: 700;
 }
 
+#totnes_show {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 #donation {
     padding: 4rem;
     background-color: var(--bg-clr-secondary);
@@ -237,11 +242,11 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .current {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -291,6 +296,11 @@ h5 {
     padding: 10px;
     background-color: var(--bg-clr-secondary);
     text-align: center;
+}
+
+.ts_ad {
+    width: 90vw;
+    height: auto;
 }
 
 .upcoming_events {
@@ -411,13 +421,6 @@ h5 {
 }
 
 
-
-
-
-
-
-
-
 @media (min-width:60em){
 .totals {
     grid-template-columns: repeat(3, 1fr);
@@ -427,6 +430,11 @@ h5 {
 .information  {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.ts_ad {
+    width: 60vw;
+    height: auto;
 }
 
 
