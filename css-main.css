@@ -538,8 +538,6 @@ h4 {
 }
 
 
-
-
 #total2  {
     margin-inline:auto;
     border: solid 1px black;
@@ -558,29 +556,7 @@ h4 {
     line-height: 1.1rem;
    }
 
-   #dep123  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: solid 1px black;
-    width: 320px;
-    height: 280px;
-    background-color: var(--totals-clr);
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 10px;
-    
-}
-
-#dep123 a {
-   font-size: 1.1rem;
-}
-
-
-
-
-
-
+   
 .fbpage {
     background-color: aliceblue;
     height: 500px;
