@@ -185,7 +185,21 @@ h5 {
     line-height: 1.8rem;
 }
 
+.agm {
+    background-color: var(--bg-clr-second);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
 
+#agm_text {
+    font-size: 1.2rem;
+    padding: 2rem;
+    text-align: center;
+}
 
 #section1 {
     padding: 2rem;
