@@ -1,0 +1,46 @@
+.agm_2024 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-clr-secondary);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.agm_poster img {
+    width: 90%;
+    height: auto;
+}
+
+.raffle {
+    margin: auto;
+    background-color: yellow;
+    width: 90%;
+    height: auto;
+    
+}
+
+p {
+    padding: 1rem;
+}
+
+#raffle_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.75rem;
+    padding: 2rem;
+}
+
+#raffle_links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    background-color: var(--bg-clr-secondary);
+}
