@@ -78,6 +78,8 @@ img     {
 }
 
 
+
+
 button {
     display: flex;
     flex-wrap: wrap;
@@ -130,8 +132,17 @@ li, a{
     color: #000000;
 }
 
+.navigation li a:active {
+    background: #f1d74c;
+    color: #ffffff;
+   
+}
 
+.active {
+    background: #f1d74c;
+    color: #ffffff;
 
+}
 h1 {
     
     color: var(--button-clr);
