@@ -15,7 +15,7 @@
 
 .raffle {
     margin: auto;
-    background-color: yellow;
+    background-color: var(--bg-clr-main);
     width: 90%;
     height: auto;
     
