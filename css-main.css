@@ -205,6 +205,29 @@ h5 {
     font-weight: 700;
 }
 
+#pob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#press_release {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-clr-second);
+    width: 90%;
+}
+
+#press_release a {
+    color: #e91e63;
+}
+
 #totnes_show {
     text-align: center;
     font-size: 1.2rem;
