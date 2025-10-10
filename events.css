@@ -1,18 +1,4 @@
-.agm_2024 {
-    
-    display: flex;
-    flex-direction: column;
-    background-color: var(--bg-clr-secondary);
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 20px;
-}
 
-.agm_poster img {
-    width: 90%;
-    height: auto;
-}
 
 .raffle {
     margin: auto;

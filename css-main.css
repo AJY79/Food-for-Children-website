@@ -35,6 +35,28 @@ body{
     
     }
 
+.agm2025 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--bg-clr-secondary);
+    text-align: center;
+    width: 100%;
+    margin-inline:auto;
+    margin-bottom: 20px;
+}
+
+.agm2025 .poster {
+    width: 90%;
+    
+    height: auto;
+}
+
+.agm2025 img {
+    width: 100%;
+    height: auto;
+}
 
 #logo {
     width: 150px;
@@ -204,6 +226,7 @@ h5 {
     font-size: 1.4rem;
     font-weight: 700;
 }
+
 
 #pob {
     display: flex;
